@@ -2,8 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 1.1px;
+
     background-color: #ffffff;
     color: #000000;
+
     max-width: 960px;
     margin: 50px auto;
     padding: 20px;
