@@ -4,8 +4,9 @@ body {
     font-size: 14px;
     background-color: #ffffff;
     color: #000000;
-    max-width: 1000px;
+    max-width: 960px;
     margin: 100px auto;
+    padding: 20px;
 }
 
 h1 {
