@@ -46,6 +46,7 @@ header img {
 
 .campaign-middle {
   position: relative;
+  overflow: hidden;
 }
 
 .campaign-middle img {
@@ -68,27 +69,8 @@ header img {
   font-size: 40px;
 }
 
-@media (max-width: 900px) {
-  .campaign-text {
-    top: calc(50% - 60px);
-    left: calc(50% - 300px);
-    font-size: 30px;
-    width: 600px;
-  }
-}
-
-@media (max-width: 700px) {
-  .campaign-text {
-    top: calc(50% - 40px);
-    left: calc(50% - 200px);
-    font-size: 20px;
-    width: 400px;
-  }
-}
-
 .main {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px 0;
   font-size: 16px;
   display: flex;
   flex-wrap: wrap;
@@ -125,4 +107,26 @@ footer .icons a {
 
 img.icon {
   width: 18px;
+}
+
+@media (max-width: 900px) {
+  .campaign-text {
+    /*top: calc(50% - 60px);*/
+    left: calc(50% - 300px);
+    /*font-size: 30px;*/
+    width: 600px;
+  }
+
+  .main {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .campaign-text {
+    top: calc(50% - 40px);
+    left: calc(50% - 180px);
+    font-size: 20px;
+    max-width: 360px;
+  }
 }
