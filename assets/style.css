@@ -33,12 +33,14 @@ header img {
 
 .campaign {
   width: 100%;
-  /*height: 100%;*/
   display: flex;
   justify-content: center;
   max-height: 535px;
 }
 
+.campaign, .campaign-middle img {
+  max-height: 535px;
+}
 .campaign-left {
   background-color: #6FD5C3;
   flex: auto;
@@ -50,8 +52,7 @@ header img {
 }
 
 .campaign-middle img {
-  max-height: 535px;
-  max-width: 160%;
+  max-width: 220%;
 }
 
 .campaign-right {
@@ -124,9 +125,9 @@ img.icon {
 
 @media (max-width: 700px) {
   .campaign-text {
-    top: calc(50% - 40px);
+    top: calc(50% - 70px);
     left: calc(50% - 180px);
-    font-size: 20px;
+    font-size: 25px;
     max-width: 360px;
   }
 }
